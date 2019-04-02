@@ -75,7 +75,7 @@ class App extends Component {
             'Origin': ''
         }
     }).then(res => {
-      res.text();
+      console.log(res.text());
         return res;
     }).catch(err => alert(err));
     }
